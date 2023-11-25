@@ -1,0 +1,22 @@
+/* 아이템 컨테이너에 대한 스타일 */
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* 각 음식 메뉴 아이템에 대한 스타일 */
+  .col-md-4 {
+    background-color: unset;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border : 2px solid black;
+    cursor: pointer;
+  }
+  
+  .col-md-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
